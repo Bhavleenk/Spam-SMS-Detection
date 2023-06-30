@@ -2,7 +2,8 @@ import streamlit as st
 import pickle
 import nltk
 import string
-# nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()

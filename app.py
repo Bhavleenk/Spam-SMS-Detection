@@ -4,6 +4,7 @@ import nltk
 import string
 nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
